@@ -51,7 +51,7 @@ public class MenuActivity extends AppCompatActivity {
         teas.add(new Tea(getString(R.string.honey_lemon_tea_name), R.drawable.honey_lemon_tea));
         teas.add(new Tea(getString(R.string.chamomile_tea_name), R.drawable.chamomile_tea));
 
-        // Create a {@link TeaAdapter}, whose data source is a list of {@link Tea}s.
+        // Create a {@link TeaAdapter}, whose data source is a list of {@ link Tea}s.
         // The adapter know how to create grid items for each item in the list.
         GridView gridview = (GridView) findViewById(R.id.tea_grid_view);
         TeaMenuAdapter adapter = new TeaMenuAdapter(this, R.layout.grid_item_layout, teas);
